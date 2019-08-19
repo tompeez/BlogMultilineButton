@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skins xmlns="http://myfaces.apache.org/trinidad/skin">
+  <skin>
+    <id>bmlbskin.desktop</id>
+    <family>bmlbskin</family>
+    <extends>alta-v1.desktop</extends>
+    <render-kit-id>org.apache.myfaces.trinidad.desktop</render-kit-id>
+    <style-sheet-name>skins/bmlbskin/bmlbskin.css</style-sheet-name>
+    <bundle-name>de.hahn.blog.multilinebutton.view.skinBundle</bundle-name>
+  </skin>
+</skins>
