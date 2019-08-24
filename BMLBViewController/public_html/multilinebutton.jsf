@@ -10,20 +10,40 @@
                         <af:outputText value="Multi Line Button" id="ot1" inlineStyle="font-size:x-large;"/>
                     </af:gridCell>
                 </af:gridRow>
-                <af:gridRow height="10%" id="gr1">
-                    <af:gridCell width="100%" halign="stretch" valign="stretch" id="gc1" inlineStyle="border-color:Lime; border-style:dotted;">
+                <af:gridRow height="100px" id="gr1">
+                    <af:gridCell width="100%" halign="stretch" valign="stretch" id="gc1"
+                                 inlineStyle="border-color:Lime; border-style:dotted;">
                         <!-- Content -->
                         <af:spacer width="50" height="10" id="s1"/>
                         <af:button text="This Button has a very long text to show" id="b1"/>
                     </af:gridCell>
                 </af:gridRow>
-                <af:gridRow id="gr3" height="50%">
+                <af:gridRow id="gr3" height="200px">
                     <af:gridCell width="200px" id="gc3" inlineStyle="border-color:Lime; border-style:dotted;">
                         <af:panelGroupLayout id="pgl2" inlineStyle="width: 150px;" layout="horizontal">
                             <af:spacer width="50" height="10" id="s2"/>
-                            <af:button text="This Button has a very long text to show"
-                                       id="b2" styleClass="multiLineButton"/>
+                            <af:button text="This Button has a very long text to show" id="b2"
+                                       styleClass="multiLineButton"/>
                         </af:panelGroupLayout>
+                    </af:gridCell>
+                </af:gridRow>
+                <af:gridRow id="gr4" height="150px">
+                    <af:gridCell id="gc4" inlineStyle="border-color:Lime; border-style:dotted;">
+                        <af:panelSplitter id="ps1" splitterPosition="100" orientation="horizontal"
+                                          dimensionsFrom="parent">
+                            <f:facet name="first">
+                                <af:button text="This Button has a very long text to show" id="b3"/>
+                            </f:facet>
+                            <f:facet name="second">
+                                                            <af:button text="This Button has a very long text to show" id="b4"
+                                       styleClass="multiLineButton"/>
+                            </f:facet>
+                        </af:panelSplitter>
+                    </af:gridCell>
+                </af:gridRow>
+                <af:gridRow id="gr5">
+                    <af:gridCell id="gc5">
+                        <af:spacer width="10" height="400" id="s3"/>
                     </af:gridCell>
                 </af:gridRow>
             </af:panelGridLayout>
