@@ -35,8 +35,8 @@
                                 <af:button text="This Button has a very long text to show" id="b3"/>
                             </f:facet>
                             <f:facet name="second">
-                                                            <af:button text="This Button has a very long text to show" id="b4"
-                                       styleClass="multiLineButton"/>
+                                <af:button text="This Button has a very long text to show" id="b4"
+                                           styleClass="multiLineButton"/>
                             </f:facet>
                         </af:panelSplitter>
                     </af:gridCell>
