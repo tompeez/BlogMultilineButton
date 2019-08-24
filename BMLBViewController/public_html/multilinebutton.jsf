@@ -10,7 +10,7 @@
                         <af:outputText value="Multi Line Button" id="ot1" inlineStyle="font-size:x-large;"/>
                     </af:gridCell>
                 </af:gridRow>
-                <af:gridRow height="50%" id="gr1">
+                <af:gridRow height="10%" id="gr1">
                     <af:gridCell width="100%" halign="stretch" valign="stretch" id="gc1" inlineStyle="border-color:Lime; border-style:dotted;">
                         <!-- Content -->
                         <af:spacer width="50" height="10" id="s1"/>
